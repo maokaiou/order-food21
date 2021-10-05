@@ -2,12 +2,12 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
-const Home = () =>import("../views/About.vue"),
+const Index = ()=> import ('@/views/Index.vue');
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home,
+    name: "Index",
+    component:Index
   }
 ];
 
